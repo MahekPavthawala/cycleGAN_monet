@@ -22,5 +22,8 @@ As per the Kaggle competition, the requirement asks for the GAN model where the 
 ## Requirements
 A clear requirement of doing the project on it's own is to enter the Kaggle challenge or it will require Python 3.7 and above. Dataset is required to be downloaded or imported with Kaggle API.
 
+## Contributor
+Mahekkumar Pavthawala - MSc in Electrical Engineer 
+
 ## License
 Distributed under the GNU License. See <a href = "https://github.com/MahekPavthawala/cycleGAN_monet/blob/main/LICENSE"> LICENSE </a> for more information.
