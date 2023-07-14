@@ -1,7 +1,7 @@
 # cycleGAN_monet
 Monet is a French painter, created style of painting named as ‘impressionist’ where he painted the nature as he perceived it. As part of the Kaggle competition ‘I’m Somewhat of Painter Myself’, one must create a GAN algorithm’s generator model needs to recreate Monet style from a photo and discriminator will classify fake or not from real and generated. The cycleGAN will turn the generated Monet style images back to the regular images that will be zipped and the submitted to the Kaggle as part of the competition. The generator model created has similar architecture as the U-Net architecture and the discriminator model is a regular neural network that can classify fake or not. The given dataset from the Kaggle has two types of the dataset, (1) photos of regular and Monet style painting in .jpeg, and (2) photos of regular and Monet style painting in .tfrec formats. The .jpeg format images are not in sequential format while, .tfrec files are in the sequential format that is much easier for algorithm to process as each image are fed into the algorithm in certain sequence where the generator learn and recreate images and discriminator discriminates.
 
-Kaggle Competition - ' I'm Something of Painter Myself ' | Ranked 40 out of 102.
+Kaggle Competition - ' I'm Something of Painter Myself ' | Ranked 30 out of 102 known participants.
 
 ## Pre-processing
 For the network to be more robust, data augmentation is done where with TensorFlow keras library the layers are processed through random horizontal flips and random zoom on the image has been done. The input image size is 256 x 256 x 3 as the image ratio is 256 x 256 and the images are RGB, thus 3 channel input.
